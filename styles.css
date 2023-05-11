@@ -19,7 +19,8 @@ body {
   height: 80vh;
 }
 .atributes {
-  height: 100vh;
-  max-width: 504px;
-  background-color: blue;
+  height: 630px;
+  width: 504px;
+  background-image: linear-gradient(120deg, #6642fe, #4433f1);
+  border-radius: 50px 50px 50px 50px;
 }
