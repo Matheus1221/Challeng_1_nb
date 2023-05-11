@@ -4,6 +4,7 @@ body {
   border: 0;
   height: 100vh;
   width: 100vw;
+  font-family: "Wix Madefor Text", sans-serif;
 }
 .container {
   height: 100vh;
@@ -21,6 +22,32 @@ body {
 .atributes {
   height: 630px;
   width: 504px;
-  background-image: linear-gradient(120deg, #6642fe, #4433f1);
+  background-image: linear-gradient(to bottom, #6642fe 50%, #4433f1);
   border-radius: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+}
+.atr_content {
+  margin: 0;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  position: relative;
+  top: 50px;
+  left: 64px;
+  height: 30px;
+  color: #cbc3ff;
+}
+.circle {
+  position: relative;
+  height: 200px;
+  width: 240px;
+  top: 200px;
+  right: 64px;
+  background-image: linear-gradient(to bottom, #4925cf, #4533eb);
+  border-radius: 100px;
 }
